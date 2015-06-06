@@ -2,11 +2,11 @@
 #define MyAppShortName "nvm"
 #define MyAppLCShortName "nvm"
 #define MyAppVersion "1.0.7"
-#define MyAppPublisher "Ecor Ventures, LLC"
-#define MyAppURL "http://github.com/coreybutler/nvm"
+#define MyAppPublisher "Jeff-Lewis"
+#define MyAppURL "https://github.com/Jeff-Lewis/nvm-windows"
 #define MyAppExeName "nvm.exe"
 #define MyIcon "bin\nodejs.ico"
-#define ProjectRoot "C:\Projects\jeff-lewis\nvm-windows"
+#define ProjectRoot "C:\Projects\Go\src\github.com\jeff-lewis\nvm-windows"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.

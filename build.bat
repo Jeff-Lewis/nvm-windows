@@ -19,13 +19,13 @@ SET DIST=%CD%\dist\%version%
 
 REM Build the executable
 echo Building NVM for Windows
-rm %GOBIN%\nvm.exe
+::rm %GOBIN%\nvm.exe
 cd %GOPATH%
 goxc -arch="386" -os="windows" -n="nvm" -d="%GOBIN%" -o="%GOBIN%\nvm{{.Ext}}" -tasks-=package
 cd %ORIG%
-rm %GOBIN%\src.exe
-rm %GOPATH%\src.exe
-rm %GOPATH%\nvm.exe
+::rm %GOBIN%\src.exe
+::#rm %GOPATH%\src.exe
+::#rm %GOPATH%\nvm.exe
 
 REM Clean the dist directory
 rm -rf "%DIST%"
